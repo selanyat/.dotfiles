@@ -1,0 +1,13 @@
+width = 550
+# height = 300
+
+#xoffset = 400
+#yoffset = 150
+
+allow_images = false
+
+hide_scroll = false
+
+# lines = 10
+
+orientation = vertical

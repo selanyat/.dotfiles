@@ -1,0 +1,5 @@
+[terminal]
+# shell = { program = "bin/zsh", args = ["-l"] }
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font Mono", style = "Reqular"}
