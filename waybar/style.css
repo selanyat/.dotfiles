@@ -69,7 +69,7 @@ window#waybar.hidden {
 	color: #00FF00;
 }
 
-#abttery.good {
+#battery.good {
 	color: @white;
 }
 #battery.warning {
