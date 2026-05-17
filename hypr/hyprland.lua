@@ -144,7 +144,7 @@ hl.workspace_rule({ workspace = "10", layout = "scrolling" })
 hl.config({
 	dwindle = {
 		force_split = 0,
-		smart_split = true
+		smart_split = false
 		}
 	})
 
