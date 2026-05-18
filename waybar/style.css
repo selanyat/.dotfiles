@@ -3,6 +3,13 @@
 @define-color red #BA1319;
 @define-color orange #E1401e;
 
+/* Interstellar colors */
+/* is == interstellar */
+@define-color is-black #080708;
+@define-color is-darkBrown #7d3c16;
+@define-color is-brown #c76a26;
+@define-color is-lightBrown #e1a94e;
+
 * {
 	border: none;
 	border-radius: 0;
@@ -25,7 +32,7 @@ window#waybar.hidden {
 	margin-left: 0px;
 	margin-bottom: 0;
 	border-radius: 0px 0px 12px 0px;
-	background: @bg;
+	background: @is-darkBrown;
 	transition: none;
 }
 
@@ -38,14 +45,14 @@ window#waybar.hidden {
 
 
 #workspaces button.active {
-	color: @red;
+	color: @is-lightBrown;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: @orange;
+	color: @is-brown;
 }
 
 
@@ -54,7 +61,7 @@ window#waybar.hidden {
 	padding-right: 12px;
 	border-radius: 0px 0px 8px 8px;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 
@@ -62,7 +69,7 @@ window#waybar.hidden {
 	padding-left: 8px;
 	padding-right: 8px;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 #battery.great {
@@ -89,7 +96,7 @@ window#waybar.hidden {
 	border-radius: 0px;
 	transition: none;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 #pulseaudio {
@@ -101,7 +108,7 @@ window#waybar.hidden {
 	border-radius: 0px 0px 0px 12px;
 	transition: none;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 
@@ -114,7 +121,7 @@ window#waybar.hidden {
 	border-radius: 0px;
 	transition: none;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 #memory {
@@ -126,7 +133,7 @@ window#waybar.hidden {
 	border-radius: 0px;
 	transition: none;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
 
 #clock {
@@ -139,5 +146,5 @@ window#waybar.hidden {
 	border-radius: 0px;
 	transition: none;
 	color: @white;
-	background: @bg;
+	background: @is-darkBrown;
 }
