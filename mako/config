@@ -1,10 +1,11 @@
 layer=overlay
-background-color=#545465
+background-color=#7d3c16
+font=JetBrainsMono Nerd Font Mono Normal 10
 text-color=#f0ebdf
 border-size=2
-border-color=#ba1319
+border-color=#e1a94e
 border-radius=8
 height=150
 padding=12
-max-icon-size=64
-
+max-icon-size=40
+icon-border-radius=20
